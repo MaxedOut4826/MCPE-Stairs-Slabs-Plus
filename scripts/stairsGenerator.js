@@ -1,5 +1,4 @@
 import { readFileSync, writeFileSync, readdirSync } from "node:fs";
-import { validateHeaderName } from "node:http";
 import { join } from "node:path";
 
 const KEYWORD_EXCLUSIONS = [
@@ -263,7 +262,7 @@ for (const [id, value] of Object.entries(blocks)) {
     blockBehaviour["minecraft:block"]["description"]["identifier"] =
         NAMESPACE + newBlockId;
 
-    const outPath = `${OUTPUT_DIRECTORY}/blocks/${newBlockId}.block.json`;
+    const outPath = `${OUTPUT_DIRECTORY}/blocks/stairs/${newBlockId}.block.json`;
 
     writeFileSync(outPath, JSON.stringify(blockBehaviour, null, 4), {
         encoding: "utf8",
