@@ -1,0 +1,9 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jeanmajid/MCPE-Tool/refs/heads/main/public/mcConfigSchema.json",
+    "name": "MCPE-Stairs-Slabs-Plus",
+    "description": "Adds a stair & slab for most block types in the game.",
+    "modules": [
+        "npm"
+    ],
+    "id": "wxcuvajdivnmteja5fk"
+}

@@ -1,0 +1,2823 @@
+{
+    "format_version": "1.26.10",
+    "minecraft:block": {
+        "description": {
+            "identifier": "mx_stairs_plus:waxed_weathered_copper_chain_stairs",
+            "menu_category": {
+                "category": "construction",
+                "group": "minecraft:itemGroup.name.stairs"
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:vertical_half"
+                    ]
+                },
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:corner_and_cardinal_direction"
+                    ],
+                    "blocks_to_corner_with": [
+                        {
+                            "tags": "q.any_tag('minecraft:cornerable_stairs')"
+                        }
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.stair"
+            },
+            "minecraft:item_visual": {
+                "geometry": {
+                    "identifier": "geometry.stair",
+                    "bone_visibility": {
+                        "bot_ne": true,
+                        "bot_nw": true,
+                        "bot_se": true,
+                        "bot_sw": true,
+                        "top_ne": true,
+                        "top_nw": true,
+                        "top_se": false,
+                        "top_sw": false
+                    }
+                },
+                "material_instances": {
+                    "down": {
+                        "texture": "weathered_copper_chain1",
+                        "render_method": "opaque"
+                    },
+                    "*": {
+                        "texture": "weathered_copper_chain2",
+                        "render_method": "opaque"
+                    },
+                    "side": {
+                        "texture": "weathered_copper_chain2",
+                        "render_method": "opaque"
+                    },
+                    "up": {
+                        "texture": "weathered_copper_chain1",
+                        "render_method": "opaque"
+                    }
+                }
+            },
+            "minecraft:material_instances": {
+                "down": {
+                    "texture": "weathered_copper_chain1",
+                    "render_method": "opaque"
+                },
+                "*": {
+                    "texture": "weathered_copper_chain2",
+                    "render_method": "opaque"
+                },
+                "side": {
+                    "texture": "weathered_copper_chain2",
+                    "render_method": "opaque"
+                },
+                "up": {
+                    "texture": "weathered_copper_chain1",
+                    "render_method": "opaque"
+                }
+            },
+            "tag:minecraft:is_pickaxe_item_destructible": {},
+            "tag:minecraft:cornerable_stairs": {}
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom'",
+                "components": {
+                    "minecraft:collision_box": true,
+                    "minecraft:selection_box": true
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top'",
+                "components": {
+                    "minecraft:collision_box": true,
+                    "minecraft:selection_box": true
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:corner') == 'none'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": false,
+                            "top_sw": false
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "down",
+                                    "north"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:corner') == 'none'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": false,
+                            "top_nw": false,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "down",
+                                    "south"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:corner') == 'none'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": true,
+                            "top_nw": false,
+                            "top_se": true,
+                            "top_sw": false
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "down",
+                                    "east"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:corner') == 'none'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": false,
+                            "top_nw": true,
+                            "top_se": false,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "down",
+                                    "west"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:corner') == 'inner_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": false,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "down",
+                                    "north",
+                                    "west"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:corner') == 'inner_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": true,
+                            "top_nw": false,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "down",
+                                    "south",
+                                    "east"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:corner') == 'inner_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": false
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "down",
+                                    "north",
+                                    "east"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:corner') == 'inner_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": false,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "down",
+                                    "south",
+                                    "west"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:corner') == 'inner_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": false
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "down",
+                                    "north",
+                                    "east"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:corner') == 'inner_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": false,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "down",
+                                    "south",
+                                    "west"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:corner') == 'inner_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": true,
+                            "top_nw": false,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "down",
+                                    "south",
+                                    "east"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:corner') == 'inner_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": false,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "down",
+                                    "north",
+                                    "west"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:corner') == 'outer_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": true,
+                            "top_nw": false,
+                            "top_se": false,
+                            "top_sw": false
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "down"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:corner') == 'outer_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": false,
+                            "top_nw": false,
+                            "top_se": false,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "down"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:corner') == 'outer_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": false,
+                            "top_nw": false,
+                            "top_se": true,
+                            "top_sw": false
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "down"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:corner') == 'outer_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": false,
+                            "top_nw": true,
+                            "top_se": false,
+                            "top_sw": false
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "down"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:corner') == 'outer_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": false,
+                            "top_nw": true,
+                            "top_se": false,
+                            "top_sw": false
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "down"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:corner') == 'outer_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": false,
+                            "top_nw": false,
+                            "top_se": true,
+                            "top_sw": false
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "down"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:corner') == 'outer_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": true,
+                            "top_nw": false,
+                            "top_se": false,
+                            "top_sw": false
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "down"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:corner') == 'outer_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": false,
+                            "top_nw": false,
+                            "top_se": false,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "down"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                8,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:corner') == 'none'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": false,
+                            "bot_sw": false,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "up",
+                                    "north"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:corner') == 'none'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": false,
+                            "bot_nw": false,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "up",
+                                    "south"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:corner') == 'none'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": false,
+                            "bot_se": true,
+                            "bot_sw": false,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "up",
+                                    "east"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:corner') == 'none'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": false,
+                            "bot_nw": true,
+                            "bot_se": false,
+                            "bot_sw": true,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "up",
+                                    "west"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:corner') == 'inner_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": false,
+                            "bot_sw": true,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "up",
+                                    "north",
+                                    "west"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:corner') == 'inner_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": false,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "up",
+                                    "south",
+                                    "east"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:corner') == 'inner_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": false,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "up",
+                                    "south",
+                                    "west"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:corner') == 'inner_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": false,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "up",
+                                    "north",
+                                    "east"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:corner') == 'inner_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": false,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "up",
+                                    "north",
+                                    "east"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:corner') == 'inner_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": false,
+                            "bot_nw": true,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "up",
+                                    "south",
+                                    "west"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:corner') == 'inner_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": false,
+                            "bot_se": true,
+                            "bot_sw": true,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "up",
+                                    "south",
+                                    "east"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:corner') == 'inner_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": true,
+                            "bot_se": false,
+                            "bot_sw": true,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "up",
+                                    "north",
+                                    "west"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:corner') == 'outer_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": false,
+                            "bot_se": false,
+                            "bot_sw": false,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "up"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:corner') == 'outer_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": false,
+                            "bot_nw": false,
+                            "bot_se": false,
+                            "bot_sw": true,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "up"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:corner') == 'outer_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": false,
+                            "bot_nw": false,
+                            "bot_se": true,
+                            "bot_sw": false,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "up"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:corner') == 'outer_right'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": false,
+                            "bot_nw": true,
+                            "bot_se": false,
+                            "bot_sw": false,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "up"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:corner') == 'outer_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": false,
+                            "bot_nw": true,
+                            "bot_se": false,
+                            "bot_sw": false,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "up"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:corner') == 'outer_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": false,
+                            "bot_nw": false,
+                            "bot_se": true,
+                            "bot_sw": false,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "up"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:corner') == 'outer_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": true,
+                            "bot_nw": false,
+                            "bot_se": false,
+                            "bot_sw": false,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "up"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:corner') == 'outer_left'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.stair",
+                        "bone_visibility": {
+                            "bot_ne": false,
+                            "bot_nw": false,
+                            "bot_se": false,
+                            "bot_sw": true,
+                            "top_ne": true,
+                            "top_nw": true,
+                            "top_se": true,
+                            "top_sw": true
+                        }
+                    },
+                    "minecraft:liquid_detection": {
+                        "detection_rules": [
+                            {
+                                "liquid_type": "water",
+                                "can_contain_liquid": true,
+                                "stops_liquid_flowing_from_direction": [
+                                    "up"
+                                ]
+                            }
+                        ]
+                    },
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [
+                                -8,
+                                8,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                8,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
