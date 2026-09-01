@@ -112,6 +112,7 @@ export const KEYWORD_EXCLUSIONS = [
     "cane",
     "blossom",
     "shrieker",
+    "log2",
     // "chain",
 ];
 // Manually filter redstone dust (redstone), mushrooms (non-blocks), azalea, corals, etc.
