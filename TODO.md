@@ -1,9 +1,10 @@
-must clean up code in generator; lots of redundant code to collapse into reusable functions like the lang file parsings
-
 delete bad stair variants
 
-add culling methods
+add generalised culling methods for performance
 
 add some behaviours manually?
 
 add slab variations and management
+
+generate culling for ugly internal texture faces
+
