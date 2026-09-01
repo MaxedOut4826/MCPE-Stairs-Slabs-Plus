@@ -1,0 +1,1461 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.stair",
+        "texture_width": 16,
+        "texture_height": 16,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [
+          0,
+          0.75,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "bone",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "bot_ne",
+          "parent": "bone",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -8,
+                0,
+                -8
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ],
+                  "material_instance": "bot_ne_north"
+                },
+                "east": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    -8,
+                    8
+                  ],
+                  "material_instance": "bot_ne_east"
+                },
+                "south": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ],
+                  "material_instance": "bot_ne_south"
+                },
+                "west": {
+                  "uv": [
+                    0,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ],
+                  "material_instance": "bot_ne_west"
+                },
+                "up": {
+                  "uv": [
+                    16,
+                    8
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    16,
+                    16
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "bot_nw",
+          "parent": "bone",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                0,
+                -8
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ],
+                  "material_instance": "bot_nw_north"
+                },
+                "east": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ],
+                  "material_instance": "bot_nw_east"
+                },
+                "south": {
+                  "uv": [
+                    0,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ],
+                  "material_instance": "bot_nw_south"
+                },
+                "west": {
+                  "uv": [
+                    0,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ],
+                  "material_instance": "bot_nw_west"
+                },
+                "up": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    8,
+                    16
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "bot_se",
+          "parent": "bone",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -8,
+                0,
+                0
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ],
+                  "material_instance": "bot_se_north"
+                },
+                "east": {
+                  "uv": [
+                    0,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ],
+                  "material_instance": "bot_se_east"
+                },
+                "south": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ],
+                  "material_instance": "bot_se_south"
+                },
+                "west": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ],
+                  "material_instance": "bot_se_west"
+                },
+                "up": {
+                  "uv": [
+                    16,
+                    16
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    16,
+                    8
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "bot_sw",
+          "parent": "bone",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ],
+                  "material_instance": "bot_sw_north"
+                },
+                "east": {
+                  "uv": [
+                    0,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ],
+                  "material_instance": "bot_sw_east"
+                },
+                "south": {
+                  "uv": [
+                    0,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ],
+                  "material_instance": "bot_sw_south"
+                },
+                "west": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ],
+                  "material_instance": "bot_sw_west"
+                },
+                "up": {
+                  "uv": [
+                    8,
+                    16
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "top_ne",
+          "parent": "bone",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -8,
+                8,
+                -8
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    8,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    8,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    16,
+                    8
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    16,
+                    16
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "top_nw",
+          "parent": "bone",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                8,
+                -8
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    8,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    8,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    8,
+                    16
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "top_se",
+          "parent": "bone",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -8,
+                8,
+                0
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    8,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    8,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    16,
+                    16
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    16,
+                    8
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "top_sw",
+          "parent": "bone",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                8,
+                0
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    8,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    8,
+                    0
+                  ],
+                  "uv_size": [
+                    8,
+                    8
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    8,
+                    16
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": {
+        "identifier": "geometry.stair_upside_down",
+        "texture_width": 16,
+        "texture_height": 16,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [
+          0,
+          0.75,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "bone",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "bot_ne",
+          "parent": "bone",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -8,
+                0,
+                -8
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    16
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "bot_ne_north"
+                },
+                "east": {
+                  "uv": [
+                    8,
+                    16
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ],
+                  "material_instance": "bot_ne_east"
+                },
+                "south": {
+                  "uv": [
+                    8,
+                    16
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "bot_ne_south"
+                },
+                "west": {
+                  "uv": [
+                    0,
+                    16
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "bot_ne_west"
+                },
+                "up": {
+                  "uv": [
+                    16,
+                    8
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    16,
+                    16
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "bot_nw",
+          "parent": "bone",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                0,
+                -8
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    8,
+                    16
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "bot_nw_north"
+                },
+                "east": {
+                  "uv": [
+                    8,
+                    16
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "bot_nw_east"
+                },
+                "south": {
+                  "uv": [
+                    0,
+                    16
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "bot_nw_south"
+                },
+                "west": {
+                  "uv": [
+                    0,
+                    16
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "bot_nw_west"
+                },
+                "up": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    8,
+                    16
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "bot_se",
+          "parent": "bone",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -8,
+                0,
+                0
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    16
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "bot_se_north"
+                },
+                "east": {
+                  "uv": [
+                    0,
+                    16
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "bot_se_east"
+                },
+                "south": {
+                  "uv": [
+                    8,
+                    16
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "bot_se_south"
+                },
+                "west": {
+                  "uv": [
+                    8,
+                    16
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "bot_se_west"
+                },
+                "up": {
+                  "uv": [
+                    16,
+                    16
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    16,
+                    8
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "bot_sw",
+          "parent": "bone",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    8,
+                    16
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "bot_sw_north"
+                },
+                "east": {
+                  "uv": [
+                    0,
+                    16
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "bot_sw_east"
+                },
+                "south": {
+                  "uv": [
+                    0,
+                    16
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "bot_sw_south"
+                },
+                "west": {
+                  "uv": [
+                    8,
+                    16
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "bot_sw_west"
+                },
+                "up": {
+                  "uv": [
+                    8,
+                    16
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "top_ne",
+          "parent": "bone",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -8,
+                8,
+                -8
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "top_ne_north"
+                },
+                "east": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "top_ne_east"
+                },
+                "south": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "top_ne_south"
+                },
+                "west": {
+                  "uv": [
+                    0,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "top_ne_west"
+                },
+                "up": {
+                  "uv": [
+                    16,
+                    8
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    16,
+                    16
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "top_nw",
+          "parent": "bone",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                8,
+                -8
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "top_nw_north"
+                },
+                "east": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "top_nw_east"
+                },
+                "south": {
+                  "uv": [
+                    0,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "top_nw_south"
+                },
+                "west": {
+                  "uv": [
+                    0,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "top_nw_west"
+                },
+                "up": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    8,
+                    16
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "top_se",
+          "parent": "bone",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -8,
+                8,
+                0
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "top_se_north"
+                },
+                "east": {
+                  "uv": [
+                    0,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "top_se_east"
+                },
+                "south": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "top_se_south"
+                },
+                "west": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "top_se_west"
+                },
+                "up": {
+                  "uv": [
+                    16,
+                    16
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    16,
+                    8
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "top_sw",
+          "parent": "bone",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                8,
+                0
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "top_sw_north"
+                },
+                "east": {
+                  "uv": [
+                    0,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "top_sw_east"
+                },
+                "south": {
+                  "uv": [
+                    0,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "top_sw_south"
+                },
+                "west": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    8,
+                    -8
+                  ],
+                  "material_instance": "top_sw_west"
+                },
+                "up": {
+                  "uv": [
+                    8,
+                    16
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    8,
+                    8
+                  ],
+                  "uv_size": [
+                    -8,
+                    -8
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
