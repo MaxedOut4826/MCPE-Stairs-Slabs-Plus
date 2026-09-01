@@ -1,4 +1,5 @@
 /**
+ * Returns a boolean indicating if the provided block face key is valid.
  * @param {string} face
  * @returns {boolean}
  */
@@ -16,6 +17,7 @@ export function isValidBlockFace(face) {
 }
 
 /**
+ * Returns a boolean indicating if the provided block face key is a side face.
  * @param {string} face
  * @returns {boolean}
  */

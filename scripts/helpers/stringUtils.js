@@ -1,4 +1,5 @@
 /**
+ * Returns a boolean indicating if the provided string includes any keyword from a list of keywords.
  * @param {string} string
  * @param {string[]} keywords
  * @returns {boolean}
@@ -13,6 +14,7 @@ export function isAnySubstringInString(string, keywords) {
 }
 
 /**
+ * Returns a boolean indicating if any perfectly matching string is found in a list of comparison strings.
  * @param {string} string
  * @param {string[]} comparisons
  * @returns {boolean}
@@ -27,6 +29,7 @@ export function isAnyStringMatching(string, comparisons) {
 }
 
 /**
+ * Returns the first instance of a string in a list that includes the provided substring.
  * @param {string} searchKey
  * @param {string[]} list
  * @returns {string}
@@ -40,6 +43,7 @@ export function findSubstringInList(searchKey, list) {
 }
 
 /**
+ * Returns the value of the first key found where the search key includes the key.
  * @param {string} searchKey
  * @param {Record<string, any>} object
  * @returns {any}
@@ -53,6 +57,9 @@ export function findSubstringInObjectKeys(searchKey, object) {
 }
 
 /**
+ * Returns a transformed string in title case format.
+ *
+ * Replaces underscores with spaces and capitalises the first letter of each word.
  * @param {string} str
  * @returns {string}
  */
@@ -63,6 +70,9 @@ export function toTitleCase(string) {
 }
 
 /**
+ * Returns a modified version of an existing translation key.
+ *
+ * Replaces the search value with a new value and appends a suffix.
  * @param {string} key
  * @param {string} searchKey
  * @param {string} returnKey
@@ -72,6 +82,9 @@ export function replaceTranslationKey(key, searchKey, returnKey, suffix) {
 }
 
 /**
+ * Generates a new translation key using the block identifier and a translation key.
+ *
+ * The output will be formatted such as 'tile.example_block_id.name=Example Block Id'
  * @param {string} newBlockId
  * @param {string} returnKey
  * @returns {string}

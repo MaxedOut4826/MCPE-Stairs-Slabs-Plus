@@ -239,7 +239,6 @@ for (const [id, value] of Object.entries(blocks)) {
         console.log(tintMethod);
     }
 
-    // console.log(id);
     if (typeof srcTextures === "string") {
         let material = {
             texture: srcTextures,

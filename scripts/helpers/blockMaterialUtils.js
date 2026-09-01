@@ -10,6 +10,7 @@ import { isAnyStringMatching } from "./stringUtils.js";
 let textureCache = [];
 
 /**
+ * Returns a boolean indicating if the texture data provided is a direct path of type string.
  * @param {string | object | string[] | object[]} textures
  * @returns {boolean}
  */
@@ -18,6 +19,7 @@ export function isTexturePath(textures) {
 }
 
 /**
+ * Returns a boolean indicating if the texture data provided is structured data of type object.
  * @param {string | object | string[] | object[]} textures
  * @returns {boolean}
  */
@@ -26,6 +28,7 @@ export function isTextureObject(textures) {
 }
 
 /**
+ * Returns a boolean indicating if the texture data provided is an array of texture data.
  * @param {string | object | string[] | object[]} textures
  * @returns {boolean}
  */
@@ -34,6 +37,11 @@ export function isTextureArray(textures) {
 }
 
 /**
+ * Sets the block material data for a custom block during generation.
+ *
+ * Will generate textures and render methods for the main material, and item visual if possible.
+ *
+ * Applying materials via this method automatically adds them to the textures cache at texture_list.json.
  * @param {string} texture
  * @param {string} renderMethod
  * @param {string} face
@@ -57,6 +65,9 @@ export function setBlockMaterial(texture, renderMethod, face) {
 }
 
 /**
+ * Will attempt to push a texture to the textures cache at texture_list.json.
+ *
+ * Searches through data based on common structures until it finds a path it can push.
  * @param {string | object | string[] | object[]} textureData
  */
 function tryPushTextureToCache(textureData) {
@@ -96,6 +107,7 @@ function tryPushTextureToCache(textureData) {
 }
 
 /**
+ * Pushes a texture to the textures cache at texture_list.json.
  * @param {string} textureDefinition
  * @param {Record<string, string | object | string[] | object[]>} terrainTextures
  */
