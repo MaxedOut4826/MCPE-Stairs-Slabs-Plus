@@ -8,3 +8,4 @@ add slab variations and management
 
 generate culling for ugly internal texture faces
 
+consider generating crafting recipes to make this pack survival compatible
