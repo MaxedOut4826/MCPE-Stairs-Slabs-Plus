@@ -46,14 +46,14 @@
                 "material_instances": {
                     "*": {
                         "texture": "oxidized_copper_bars",
-                        "render_method": "opaque"
+                        "render_method": "blend"
                     }
                 }
             },
             "minecraft:material_instances": {
                 "*": {
                     "texture": "oxidized_copper_bars",
-                    "render_method": "opaque"
+                    "render_method": "blend"
                 }
             },
             "tag:minecraft:is_pickaxe_item_destructible": {},

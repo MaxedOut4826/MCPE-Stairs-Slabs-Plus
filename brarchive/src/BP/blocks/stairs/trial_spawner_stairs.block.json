@@ -46,30 +46,30 @@
                 "material_instances": {
                     "down": {
                         "texture": "trial_spawner_bottom",
-                        "render_method": "opaque"
+                        "render_method": "blend"
                     },
                     "*": {
                         "texture": "trial_spawner_side",
-                        "render_method": "opaque"
+                        "render_method": "blend"
                     },
                     "up": {
                         "texture": "trial_spawner_top",
-                        "render_method": "opaque"
+                        "render_method": "blend"
                     }
                 }
             },
             "minecraft:material_instances": {
                 "down": {
                     "texture": "trial_spawner_bottom",
-                    "render_method": "opaque"
+                    "render_method": "blend"
                 },
                 "*": {
                     "texture": "trial_spawner_side",
-                    "render_method": "opaque"
+                    "render_method": "blend"
                 },
                 "up": {
                     "texture": "trial_spawner_top",
-                    "render_method": "opaque"
+                    "render_method": "blend"
                 }
             },
             "tag:minecraft:is_pickaxe_item_destructible": {},

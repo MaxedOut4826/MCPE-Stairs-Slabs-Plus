@@ -46,14 +46,14 @@
                 "material_instances": {
                     "*": {
                         "texture": "light_blue_stained_glass",
-                        "render_method": "opaque"
+                        "render_method": "blend"
                     }
                 }
             },
             "minecraft:material_instances": {
                 "*": {
                     "texture": "light_blue_stained_glass",
-                    "render_method": "opaque"
+                    "render_method": "blend"
                 }
             },
             "tag:minecraft:is_pickaxe_item_destructible": {},

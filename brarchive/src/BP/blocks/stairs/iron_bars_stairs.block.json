@@ -46,54 +46,54 @@
                 "material_instances": {
                     "down": {
                         "texture": "iron_bars",
-                        "render_method": "opaque"
+                        "render_method": "blend"
                     },
                     "*": {
                         "texture": "iron_bars_edge",
-                        "render_method": "opaque"
+                        "render_method": "blend"
                     },
                     "north": {
                         "texture": "iron_bars",
-                        "render_method": "opaque"
+                        "render_method": "blend"
                     },
                     "south": {
                         "texture": "iron_bars",
-                        "render_method": "opaque"
+                        "render_method": "blend"
                     },
                     "up": {
                         "texture": "iron_bars",
-                        "render_method": "opaque"
+                        "render_method": "blend"
                     },
                     "west": {
                         "texture": "iron_bars",
-                        "render_method": "opaque"
+                        "render_method": "blend"
                     }
                 }
             },
             "minecraft:material_instances": {
                 "down": {
                     "texture": "iron_bars",
-                    "render_method": "opaque"
+                    "render_method": "blend"
                 },
                 "*": {
                     "texture": "iron_bars_edge",
-                    "render_method": "opaque"
+                    "render_method": "blend"
                 },
                 "north": {
                     "texture": "iron_bars",
-                    "render_method": "opaque"
+                    "render_method": "blend"
                 },
                 "south": {
                     "texture": "iron_bars",
-                    "render_method": "opaque"
+                    "render_method": "blend"
                 },
                 "up": {
                     "texture": "iron_bars",
-                    "render_method": "opaque"
+                    "render_method": "blend"
                 },
                 "west": {
                     "texture": "iron_bars",
-                    "render_method": "opaque"
+                    "render_method": "blend"
                 }
             },
             "tag:minecraft:is_pickaxe_item_destructible": {},
