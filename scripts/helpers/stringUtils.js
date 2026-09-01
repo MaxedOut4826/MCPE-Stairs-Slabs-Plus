@@ -4,7 +4,12 @@
  * @returns {boolean}
  */
 export function isAnySubstringInString(string, keywords) {
-    return keywords.some((keyword) => string.includes(keyword));
+    for (const keyword of keywords) {
+        if (string.includes(keyword)) {
+            return true;
+        }
+    }
+    return false;
 }
 
 /**
@@ -13,29 +18,38 @@ export function isAnySubstringInString(string, keywords) {
  * @returns {boolean}
  */
 export function isAnyStringMatching(string, comparisons) {
-    return comparisons.some((string2) => string === string2);
+    for (const string2 of comparisons) {
+        if (string2 === string) {
+            return true;
+        }
+    }
+    return false;
 }
 
 /**
  * @param {string} searchKey
  * @param {string[]} list
- * @returns {boolean}
+ * @returns {string}
  */
 export function findSubstringInList(searchKey, list) {
-    return list.find((line) => line.includes(searchKey));
+    for (const line of list) {
+        if (line.includes(searchKey)) {
+            return line;
+        }
+    }
 }
 
 /**
  * @param {string} searchKey
- * @param {string[]} list
- * @returns {boolean}
+ * @param {Record<string, any>} object
+ * @returns {any}
  */
 export function findSubstringInObjectKeys(searchKey, object) {
-    const result = Object.entries(object).find(([key]) =>
-        searchKey.includes(key),
-    );
-
-    return result?.[1];
+    for (const [key, value] of Object.entries(object)) {
+        if (searchKey.includes(key)) {
+            return value;
+        }
+    }
 }
 
 /**
@@ -53,8 +67,8 @@ export function toTitleCase(string) {
  * @param {string} searchKey
  * @param {string} returnKey
  */
-export function replaceTranslationKey(key, searchKey, returnKey, end) {
-    return key.replace(searchKey, returnKey) + ` ${toTitleCase(end)}`;
+export function replaceTranslationKey(key, searchKey, returnKey, suffix) {
+    return key.replace(searchKey, returnKey) + ` ${toTitleCase(suffix)}`;
 }
 
 /**
@@ -62,7 +76,7 @@ export function replaceTranslationKey(key, searchKey, returnKey, end) {
  * @param {string} returnKey
  * @returns {string}
  */
-export function generateTranslationKey(newBlockId, returnKey) {
-    const displayName = toTitleCase(newBlockId);
-    return returnKey + "=" + displayName;
+export function generateTranslationKey(blockId, translationKey) {
+    const displayName = toTitleCase(blockId);
+    return translationKey + "=" + displayName;
 }
