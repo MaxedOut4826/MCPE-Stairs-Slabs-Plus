@@ -1,0 +1,124 @@
+{
+    "format_version": "1.26.20",
+    "minecraft:block": {
+        "description": {
+            "identifier": "mx_stairs_plus:brown_mushroom_block_slab",
+            "menu_category": {
+                "category": "construction",
+                "group": "minecraft:itemGroup.name.slab"
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:vertical_half"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": "geometry.slab",
+            "minecraft:material_instances": {
+                "down": {
+                    "texture": "mushroom_brown_bottom",
+                    "render_method": "opaque"
+                },
+                "*": {
+                    "texture": "mushroom_brown_east",
+                    "render_method": "opaque"
+                },
+                "north": {
+                    "texture": "mushroom_brown_north",
+                    "render_method": "opaque"
+                },
+                "south": {
+                    "texture": "mushroom_brown_south",
+                    "render_method": "opaque"
+                },
+                "up": {
+                    "texture": "mushroom_brown_top",
+                    "render_method": "opaque"
+                },
+                "west": {
+                    "texture": "mushroom_brown_west",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    8,
+                    16
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    8,
+                    16
+                ]
+            },
+            "minecraft:destructible_by_explosion": false,
+            "minecraft:destructible_by_mining": false,
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "can_contain_liquid": true,
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "obstruct_rain_accumulate_snow"
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('minecraft:vertical_half') == 'top'",
+                "components": {
+                    "minecraft:transformation": {
+                        "translation": [
+                            0,
+                            0.5,
+                            0
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            8,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            8,
+                            16
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

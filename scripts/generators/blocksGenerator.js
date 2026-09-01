@@ -22,25 +22,24 @@ import {
 } from "../helpers/blockMaterialUtils.js";
 import "../renderMethods/index.js";
 
-const BLOCK_TYPE = "stairs";
+const blockClassesRegistry = ["stairs", "slab"];
 
 // Base Directories
 const SOURCE_DIRECTORY = "./scripts/io/src/";
-const OUTPUT_DIRECTORY = "./scripts/io/output/";
+const OUTPUT_DIRECTORY = "./";
 
 // Paths
-const BEHAVIOUR_PATH = `${SOURCE_DIRECTORY}/blocks/${BLOCK_TYPE}_template.block.json`;
 const BLOCKS_LIST_PATH = SOURCE_DIRECTORY + "blocks.json";
 const TERRAIN_TEXTURE_PATH = SOURCE_DIRECTORY + "terrain_texture.json";
 
 const VANILLA_TEXTS_DIRECTORY = SOURCE_DIRECTORY + "vanillaTexts";
 const MY_TEXTS_DIRECTORY = SOURCE_DIRECTORY + "myTexts";
 
-const TERRAIN_TEXTURE_OUTPUT = OUTPUT_DIRECTORY + "texture_list.json";
+const TERRAIN_TEXTURE_OUTPUT =
+    OUTPUT_DIRECTORY + "RP/textures/texture_list.json";
 
 export const terrainTextures = parseJsonFileSync(TERRAIN_TEXTURE_PATH);
 const blocks = parseJsonFileSync(BLOCKS_LIST_PATH);
-const blockBehaviourTemplate = parseJsonFileSync(BEHAVIOUR_PATH);
 const vanillaTexts = parseLangDirectorySync(VANILLA_TEXTS_DIRECTORY);
 const texts = parseLangDirectorySync(MY_TEXTS_DIRECTORY);
 
@@ -54,37 +53,65 @@ const blocksJson = {
 main();
 
 function main() {
+    generateAllBlockClasses(blockClassesRegistry);
+}
+
+/**
+ * @param {string[]} blockClasses
+ */
+function generateAllBlockClasses(blockClasses) {
+    for (const blockClass of blockClasses) {
+        generateBlockClass(blockClass);
+    }
+
+    writeLangFiles(texts);
+    writeJsonFileSync(OUTPUT_DIRECTORY + "RP/blocks.json", blocksJson);
+    writeTextureList(TERRAIN_TEXTURE_OUTPUT);
+}
+
+/**
+ * @param {string} blockClass
+ */
+function generateBlockClass(blockClass) {
     for (const [id, vanillaData] of Object.entries(blocks)) {
         if (!vanillaData || isAnySubstringInString(id, KEYWORD_EXCLUSIONS)) {
             continue;
         }
 
+        const blockBehaviourTemplatePath = `${SOURCE_DIRECTORY}/blocks/${blockClass}.block.json`;
+        const blockBehaviourTemplate = parseJsonFileSync(
+            blockBehaviourTemplatePath,
+        );
         const blockBehaviour = structuredClone(blockBehaviourTemplate);
+
         const blockData = blockBehaviour["minecraft:block"];
         const components = blockData["components"];
         materialInstances = components["minecraft:material_instances"];
         itemVisualMaterials =
-            components["minecraft:item_visual"]["material_instances"];
+            components?.["minecraft:item_visual"]?.["material_instances"];
 
-        const newBlockId = `${id}_${BLOCK_TYPE}`;
+        const newBlockId = `${id}_${blockClass}`;
         const namespacedId = NAMESPACE + newBlockId;
+
         blockData["description"]["identifier"] = namespacedId;
 
         generateMaterials(id, vanillaData);
-        generateLangKeys(vanillaTexts, {
-            id: id,
-            newBlockId: newBlockId,
-            namespacedId: namespacedId,
-        });
+        generateLangKeys(
+            vanillaTexts,
+            {
+                id: id,
+                newBlockId: newBlockId,
+                namespacedId: namespacedId,
+            },
+            blockClass,
+        );
         generateBlocksJson(namespacedId, vanillaData);
 
-        const blocksOutPath = `${OUTPUT_DIRECTORY}/blocks/${BLOCK_TYPE}/${newBlockId}.block.json`;
+        const blocksOutPath = `${OUTPUT_DIRECTORY}/BP/blocks/${blockClass}/${newBlockId}.block.json`;
         writeJsonFileSync(blocksOutPath, blockBehaviour);
-    }
 
-    writeLangFiles(texts);
-    writeJsonFileSync(OUTPUT_DIRECTORY + "blocks.json", blocksJson);
-    writeTextureList(TERRAIN_TEXTURE_OUTPUT);
+        console.log(namespacedId);
+    }
 }
 
 /**
@@ -92,7 +119,7 @@ function main() {
  */
 function writeLangFiles(texts) {
     for (const [lang, keys] of Object.entries(texts)) {
-        const textOutputPath = `${OUTPUT_DIRECTORY}/texts/${lang}`;
+        const textOutputPath = `${OUTPUT_DIRECTORY}/RP/texts/${lang}`;
 
         writeFileLinesSync(textOutputPath, keys);
     }
@@ -135,8 +162,9 @@ function generateBlocksJson(id, vanillaData) {
  * @param {string} idReferences.id
  * @param {string} idReferences.newBlockId
  * @param {string} idReferences.namespacedId
+ * @param {string} blockClass
  */
-function generateLangKeys(vanillaTexts, idReferences) {
+function generateLangKeys(vanillaTexts, idReferences, blockClass) {
     const {
         id: id,
         newBlockId: newBlockId,
@@ -150,7 +178,7 @@ function generateLangKeys(vanillaTexts, idReferences) {
         let key = findSubstringInList(searchKey, keys);
 
         if (key) {
-            key = replaceTranslationKey(key, searchKey, returnKey, BLOCK_TYPE);
+            key = replaceTranslationKey(key, searchKey, returnKey, blockClass);
         } else {
             key = generateTranslationKey(newBlockId, returnKey);
         }
