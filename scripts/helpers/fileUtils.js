@@ -1,4 +1,10 @@
-import { readFileSync, writeFileSync, readdirSync } from "node:fs";
+import {
+    readFileSync,
+    writeFileSync,
+    readdirSync,
+    existsSync,
+    mkdirSync,
+} from "node:fs";
 import { join } from "node:path";
 
 /**
@@ -47,6 +53,8 @@ export function writeJsonFileSync(file, data, options) {
         options = { encoding: "utf8" };
     }
 
+    ensureDirSync(file);
+
     writeFileSync(file, JSON.stringify(data, null, 4), options);
 }
 
@@ -61,5 +69,23 @@ export function writeFileLinesSync(file, keys, options) {
         options = { encoding: "utf8" };
     }
 
+    ensureDirSync(file);
+
     writeFileSync(file, keys.join("\n"), options);
+}
+
+/**
+ * @param {string} directory
+ */
+export function ensureDirSync(directory) {
+    if (existsSync(directory)) {
+        return;
+    }
+
+    if (directory.includes(".")) {
+        const fileStart = directory.lastIndexOf("/");
+        directory = directory.slice(0, fileStart);
+    }
+
+    mkdirSync(directory, { recursive: true });
 }
