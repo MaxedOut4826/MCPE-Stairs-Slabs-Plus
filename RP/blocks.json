@@ -668,9 +668,6 @@
     "mx_stairs_plus:melon_block_stairs": {
         "sound": "wood"
     },
-    "mx_stairs_plus:mob_spawner_stairs": {
-        "sound": "mob_spawner"
-    },
     "mx_stairs_plus:moss_block_stairs": {
         "sound": "moss_block"
     },
@@ -710,6 +707,9 @@
     },
     "mx_stairs_plus:obsidian_stairs": {
         "sound": "stone"
+    },
+    "mx_stairs_plus:ochre_froglight_stairs": {
+        "sound": "froglight"
     },
     "mx_stairs_plus:orange_concrete_stairs": {
         "sound": "stone"
@@ -767,6 +767,9 @@
     },
     "mx_stairs_plus:pale_oak_wood_stairs": {
         "sound": "wood"
+    },
+    "mx_stairs_plus:pearlescent_froglight_stairs": {
+        "sound": "froglight"
     },
     "mx_stairs_plus:pink_concrete_stairs": {
         "sound": "stone"
@@ -890,9 +893,6 @@
         "sound": "metal"
     },
     "mx_stairs_plus:reserved6_stairs": {},
-    "mx_stairs_plus:respawn_anchor_stairs": {
-        "sound": "metal"
-    },
     "mx_stairs_plus:sand_stairs": {
         "sound": "sand"
     },
@@ -977,9 +977,6 @@
     "mx_stairs_plus:trapped_chest_stairs": {
         "sound": "wood"
     },
-    "mx_stairs_plus:trial_spawner_stairs": {
-        "sound": "trial_spawner"
-    },
     "mx_stairs_plus:tube_coral_block_stairs": {
         "sound": "stone"
     },
@@ -988,6 +985,9 @@
     },
     "mx_stairs_plus:vault_stairs": {
         "sound": "vault"
+    },
+    "mx_stairs_plus:verdant_froglight_stairs": {
+        "sound": "froglight"
     },
     "mx_stairs_plus:warped_hyphae_stairs": {
         "sound": "stem"
@@ -1798,9 +1798,6 @@
     "mx_stairs_plus:melon_block_slab": {
         "sound": "wood"
     },
-    "mx_stairs_plus:mob_spawner_slab": {
-        "sound": "mob_spawner"
-    },
     "mx_stairs_plus:moss_block_slab": {
         "sound": "moss_block"
     },
@@ -1840,6 +1837,9 @@
     },
     "mx_stairs_plus:obsidian_slab": {
         "sound": "stone"
+    },
+    "mx_stairs_plus:ochre_froglight_slab": {
+        "sound": "froglight"
     },
     "mx_stairs_plus:orange_concrete_slab": {
         "sound": "stone"
@@ -1897,6 +1897,9 @@
     },
     "mx_stairs_plus:pale_oak_wood_slab": {
         "sound": "wood"
+    },
+    "mx_stairs_plus:pearlescent_froglight_slab": {
+        "sound": "froglight"
     },
     "mx_stairs_plus:pink_concrete_slab": {
         "sound": "stone"
@@ -2020,9 +2023,6 @@
         "sound": "metal"
     },
     "mx_stairs_plus:reserved6_slab": {},
-    "mx_stairs_plus:respawn_anchor_slab": {
-        "sound": "metal"
-    },
     "mx_stairs_plus:sand_slab": {
         "sound": "sand"
     },
@@ -2107,9 +2107,6 @@
     "mx_stairs_plus:trapped_chest_slab": {
         "sound": "wood"
     },
-    "mx_stairs_plus:trial_spawner_slab": {
-        "sound": "trial_spawner"
-    },
     "mx_stairs_plus:tube_coral_block_slab": {
         "sound": "stone"
     },
@@ -2118,6 +2115,9 @@
     },
     "mx_stairs_plus:vault_slab": {
         "sound": "vault"
+    },
+    "mx_stairs_plus:verdant_froglight_slab": {
+        "sound": "froglight"
     },
     "mx_stairs_plus:warped_hyphae_slab": {
         "sound": "stem"

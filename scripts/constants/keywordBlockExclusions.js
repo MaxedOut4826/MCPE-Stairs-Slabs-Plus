@@ -82,7 +82,7 @@ const KEYWORD_EXCLUSIONS = [
     "crop",
     "fungus",
     "cocoa",
-    "frog",
+    "spawn",
     "daylight",
     "allium",
     "wire",
