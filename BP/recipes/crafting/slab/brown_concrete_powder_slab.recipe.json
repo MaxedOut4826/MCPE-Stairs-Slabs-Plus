@@ -1,0 +1,28 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mx_stairs_plus:brown_concrete_powder_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "XXX"
+        ],
+        "key": {
+            "X": {
+                "item": "minecraft:brown_concrete_powder"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:brown_concrete_powder"
+            }
+        ],
+        "result": {
+            "item": "mx_stairs_plus:brown_concrete_powder_slab",
+            "count": 6
+        }
+    }
+}

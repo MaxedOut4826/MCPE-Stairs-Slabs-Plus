@@ -6,9 +6,6 @@
     "mx_stairs_plus:acacia_log_stairs": {
         "sound": "wood"
     },
-    "mx_stairs_plus:acacia_planks_stairs": {
-        "sound": "wood"
-    },
     "mx_stairs_plus:acacia_wood_stairs": {
         "sound": "wood"
     },
@@ -20,12 +17,6 @@
     },
     "mx_stairs_plus:ancient_debris_stairs": {
         "sound": "ancient_debris"
-    },
-    "mx_stairs_plus:andesite_stairs": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:azalea_stairs": {
-        "sound": "azalea"
     },
     "mx_stairs_plus:azalea_leaves_stairs": {
         "sound": "azalea_leaves"
@@ -43,9 +34,6 @@
         "sound": "grass"
     },
     "mx_stairs_plus:birch_log_stairs": {
-        "sound": "wood"
-    },
-    "mx_stairs_plus:birch_planks_stairs": {
         "sound": "wood"
     },
     "mx_stairs_plus:birch_wood_stairs": {
@@ -71,9 +59,6 @@
     },
     "mx_stairs_plus:black_wool_stairs": {
         "sound": "cloth"
-    },
-    "mx_stairs_plus:blackstone_stairs": {
-        "sound": "stone"
     },
     "mx_stairs_plus:blast_furnace_stairs": {
         "sound": "stone"
@@ -108,13 +93,9 @@
     "mx_stairs_plus:border_block_stairs": {
         "sound": "stone"
     },
-    "mx_stairs_plus:brain_coral_stairs": {
-        "sound": "stone"
-    },
     "mx_stairs_plus:brain_coral_block_stairs": {
         "sound": "stone"
     },
-    "mx_stairs_plus:brick_block_stairs": {},
     "mx_stairs_plus:brown_concrete_stairs": {
         "sound": "stone"
     },
@@ -123,9 +104,6 @@
     },
     "mx_stairs_plus:brown_glazed_terracotta_stairs": {
         "sound": "stone"
-    },
-    "mx_stairs_plus:brown_mushroom_stairs": {
-        "sound": "grass"
     },
     "mx_stairs_plus:brown_mushroom_block_stairs": {
         "sound": "wood"
@@ -155,9 +133,6 @@
     "mx_stairs_plus:carved_pumpkin_stairs": {
         "sound": "wood"
     },
-    "mx_stairs_plus:chain_stairs": {
-        "sound": "chain"
-    },
     "mx_stairs_plus:chain_command_block_stairs": {
         "sound": "metal"
     },
@@ -165,9 +140,6 @@
         "sound": "cherry_leaves"
     },
     "mx_stairs_plus:cherry_log_stairs": {
-        "sound": "cherry_wood"
-    },
-    "mx_stairs_plus:cherry_planks_stairs": {
         "sound": "cherry_wood"
     },
     "mx_stairs_plus:cherry_wood_stairs": {
@@ -215,12 +187,6 @@
     "mx_stairs_plus:chiseled_tuff_bricks_stairs": {
         "sound": "tuff_bricks"
     },
-    "mx_stairs_plus:cinnabar_stairs": {
-        "sound": "cinnabar"
-    },
-    "mx_stairs_plus:cinnabar_bricks_stairs": {
-        "sound": "cinnabar"
-    },
     "mx_stairs_plus:clay_stairs": {
         "sound": "gravel"
     },
@@ -233,20 +199,8 @@
     "mx_stairs_plus:coarse_dirt_stairs": {
         "sound": "gravel"
     },
-    "mx_stairs_plus:cobbled_deepslate_stairs": {
-        "sound": "deepslate"
-    },
-    "mx_stairs_plus:cobblestone_stairs": {
-        "sound": "stone"
-    },
     "mx_stairs_plus:command_block_stairs": {
         "sound": "metal"
-    },
-    "mx_stairs_plus:concrete_stairs": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:concretePowder_stairs": {
-        "sound": "sand"
     },
     "mx_stairs_plus:copper_bars_stairs": {
         "sound": "copper"
@@ -256,9 +210,6 @@
     },
     "mx_stairs_plus:copper_bulb_stairs": {
         "sound": "copper_bulb"
-    },
-    "mx_stairs_plus:copper_chain_stairs": {
-        "sound": "chain"
     },
     "mx_stairs_plus:copper_chest_stairs": {
         "sound": "copper_chest"
@@ -272,7 +223,6 @@
     "mx_stairs_plus:coral_stairs": {
         "sound": "stone"
     },
-    "mx_stairs_plus:coral_block_stairs": {},
     "mx_stairs_plus:cracked_deepslate_bricks_stairs": {
         "sound": "deepslate_bricks"
     },
@@ -303,14 +253,8 @@
     "mx_stairs_plus:crimson_nylium_stairs": {
         "sound": "nylium"
     },
-    "mx_stairs_plus:crimson_planks_stairs": {
-        "sound": "nether_wood"
-    },
     "mx_stairs_plus:crying_obsidian_stairs": {
         "sound": "stone"
-    },
-    "mx_stairs_plus:cut_copper_stairs": {
-        "sound": "copper"
     },
     "mx_stairs_plus:cut_red_sandstone_stairs": {
         "sound": "stone"
@@ -345,28 +289,13 @@
     "mx_stairs_plus:dark_oak_log_stairs": {
         "sound": "wood"
     },
-    "mx_stairs_plus:dark_oak_planks_stairs": {
-        "sound": "wood"
-    },
     "mx_stairs_plus:dark_oak_wood_stairs": {
         "sound": "wood"
-    },
-    "mx_stairs_plus:dark_prismarine_stairs": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:dead_brain_coral_stairs": {
-        "sound": "stone"
     },
     "mx_stairs_plus:dead_brain_coral_block_stairs": {
         "sound": "stone"
     },
-    "mx_stairs_plus:dead_horn_coral_stairs": {
-        "sound": "stone"
-    },
     "mx_stairs_plus:dead_horn_coral_block_stairs": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:dead_tube_coral_stairs": {
         "sound": "stone"
     },
     "mx_stairs_plus:dead_tube_coral_block_stairs": {
@@ -374,9 +303,6 @@
     },
     "mx_stairs_plus:deepslate_stairs": {
         "sound": "deepslate"
-    },
-    "mx_stairs_plus:deepslate_bricks_stairs": {
-        "sound": "deepslate_bricks"
     },
     "mx_stairs_plus:deepslate_coal_ore_stairs": {
         "sound": "deepslate"
@@ -402,9 +328,6 @@
     "mx_stairs_plus:deepslate_redstone_ore_stairs": {
         "sound": "deepslate"
     },
-    "mx_stairs_plus:deepslate_tiles_stairs": {
-        "sound": "deepslate_bricks"
-    },
     "mx_stairs_plus:deny_stairs": {
         "sound": "stone"
     },
@@ -418,9 +341,6 @@
         "sound": "metal"
     },
     "mx_stairs_plus:diamond_ore_stairs": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:diorite_stairs": {
         "sound": "stone"
     },
     "mx_stairs_plus:dirt_stairs": {
@@ -439,9 +359,6 @@
         "sound": "stone"
     },
     "mx_stairs_plus:enchanting_table_stairs": {},
-    "mx_stairs_plus:end_bricks_stairs": {
-        "sound": "stone"
-    },
     "mx_stairs_plus:end_stone_stairs": {
         "sound": "stone"
     },
@@ -458,17 +375,11 @@
     "mx_stairs_plus:exposed_copper_bulb_stairs": {
         "sound": "copper_bulb"
     },
-    "mx_stairs_plus:exposed_copper_chain_stairs": {
-        "sound": "chain"
-    },
     "mx_stairs_plus:exposed_copper_chest_stairs": {
         "sound": "copper_chest"
     },
     "mx_stairs_plus:exposed_copper_grate_stairs": {
         "sound": "copper_grate"
-    },
-    "mx_stairs_plus:exposed_cut_copper_stairs": {
-        "sound": "copper"
     },
     "mx_stairs_plus:farmland_stairs": {
         "sound": "gravel"
@@ -504,9 +415,6 @@
         "sound": "metal"
     },
     "mx_stairs_plus:gold_ore_stairs": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:granite_stairs": {
         "sound": "stone"
     },
     "mx_stairs_plus:grass_stairs": {
@@ -572,9 +480,6 @@
     "mx_stairs_plus:honeycomb_block_stairs": {
         "sound": "coral"
     },
-    "mx_stairs_plus:horn_coral_stairs": {
-        "sound": "stone"
-    },
     "mx_stairs_plus:horn_coral_block_stairs": {
         "sound": "stone"
     },
@@ -628,9 +533,6 @@
     "mx_stairs_plus:jungle_log_stairs": {
         "sound": "wood"
     },
-    "mx_stairs_plus:jungle_planks_stairs": {
-        "sound": "wood"
-    },
     "mx_stairs_plus:jungle_wood_stairs": {
         "sound": "wood"
     },
@@ -642,12 +544,6 @@
     },
     "mx_stairs_plus:lapis_ore_stairs": {
         "sound": "stone"
-    },
-    "mx_stairs_plus:leaves_stairs": {
-        "sound": "grass"
-    },
-    "mx_stairs_plus:leaves2_stairs": {
-        "sound": "grass"
     },
     "mx_stairs_plus:light_blue_concrete_stairs": {
         "sound": "stone"
@@ -733,12 +629,6 @@
     "mx_stairs_plus:lodestone_stairs": {
         "sound": "lodestone"
     },
-    "mx_stairs_plus:log_stairs": {
-        "sound": "wood"
-    },
-    "mx_stairs_plus:log2_stairs": {
-        "sound": "wood"
-    },
     "mx_stairs_plus:loom_stairs": {
         "sound": "wood"
     },
@@ -772,9 +662,6 @@
     "mx_stairs_plus:mangrove_log_stairs": {
         "sound": "wood"
     },
-    "mx_stairs_plus:mangrove_planks_stairs": {
-        "sound": "wood"
-    },
     "mx_stairs_plus:mangrove_wood_stairs": {
         "sound": "wood"
     },
@@ -787,24 +674,12 @@
     "mx_stairs_plus:moss_block_stairs": {
         "sound": "moss_block"
     },
-    "mx_stairs_plus:mossy_cobblestone_stairs": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:mossy_stone_bricks_stairs": {
-        "sound": "stone"
-    },
     "mx_stairs_plus:movingBlock_stairs": {},
     "mx_stairs_plus:mud_stairs": {
         "sound": "mud"
     },
-    "mx_stairs_plus:mud_bricks_stairs": {
-        "sound": "mud_bricks"
-    },
     "mx_stairs_plus:mycelium_stairs": {
         "sound": "grass"
-    },
-    "mx_stairs_plus:nether_brick_stairs": {
-        "sound": "nether_brick"
     },
     "mx_stairs_plus:nether_gold_ore_stairs": {
         "sound": "nether_gold_ore"
@@ -825,9 +700,6 @@
         "sound": "grass"
     },
     "mx_stairs_plus:oak_log_stairs": {
-        "sound": "wood"
-    },
-    "mx_stairs_plus:oak_planks_stairs": {
         "sound": "wood"
     },
     "mx_stairs_plus:oak_wood_stairs": {
@@ -872,17 +744,11 @@
     "mx_stairs_plus:oxidized_copper_bulb_stairs": {
         "sound": "copper_bulb"
     },
-    "mx_stairs_plus:oxidized_copper_chain_stairs": {
-        "sound": "chain"
-    },
     "mx_stairs_plus:oxidized_copper_chest_stairs": {
         "sound": "copper_chest_oxidized"
     },
     "mx_stairs_plus:oxidized_copper_grate_stairs": {
         "sound": "copper_grate"
-    },
-    "mx_stairs_plus:oxidized_cut_copper_stairs": {
-        "sound": "copper"
     },
     "mx_stairs_plus:packed_ice_stairs": {
         "sound": "glass"
@@ -897,9 +763,6 @@
         "sound": "grass"
     },
     "mx_stairs_plus:pale_oak_log_stairs": {
-        "sound": "wood"
-    },
-    "mx_stairs_plus:pale_oak_planks_stairs": {
         "sound": "wood"
     },
     "mx_stairs_plus:pale_oak_wood_stairs": {
@@ -930,50 +793,14 @@
         "sound": "stone"
     },
     "mx_stairs_plus:pistonArmCollision_stairs": {},
-    "mx_stairs_plus:planks_stairs": {
-        "sound": "wood"
-    },
     "mx_stairs_plus:podzol_stairs": {
         "sound": "gravel"
-    },
-    "mx_stairs_plus:polished_andesite_stairs": {
-        "sound": "stone"
     },
     "mx_stairs_plus:polished_basalt_stairs": {
         "sound": "basalt"
     },
-    "mx_stairs_plus:polished_blackstone_stairs": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:polished_blackstone_bricks_stairs": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:polished_cinnabar_stairs": {
-        "sound": "cinnabar"
-    },
-    "mx_stairs_plus:polished_deepslate_stairs": {
-        "sound": "deepslate"
-    },
-    "mx_stairs_plus:polished_diorite_stairs": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:polished_granite_stairs": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:polished_sulfur_stairs": {
-        "sound": "sulfur"
-    },
-    "mx_stairs_plus:polished_tuff_stairs": {
-        "sound": "polished_tuff"
-    },
     "mx_stairs_plus:powder_snow_stairs": {
         "sound": "powder_snow"
-    },
-    "mx_stairs_plus:prismarine_stairs": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:prismarine_bricks_stairs": {
-        "sound": "stone"
     },
     "mx_stairs_plus:pumpkin_stairs": {
         "sound": "wood"
@@ -999,13 +826,7 @@
     "mx_stairs_plus:purple_wool_stairs": {
         "sound": "cloth"
     },
-    "mx_stairs_plus:purpur_block_stairs": {
-        "sound": "stone"
-    },
     "mx_stairs_plus:purpur_pillar_stairs": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:quartz_block_stairs": {
         "sound": "stone"
     },
     "mx_stairs_plus:quartz_bricks_stairs": {
@@ -1035,20 +856,11 @@
     "mx_stairs_plus:red_glazed_terracotta_stairs": {
         "sound": "stone"
     },
-    "mx_stairs_plus:red_mushroom_stairs": {
-        "sound": "grass"
-    },
     "mx_stairs_plus:red_mushroom_block_stairs": {
         "sound": "wood"
     },
-    "mx_stairs_plus:red_nether_brick_stairs": {
-        "sound": "nether_brick"
-    },
     "mx_stairs_plus:red_sand_stairs": {
         "sound": "sand"
-    },
-    "mx_stairs_plus:red_sandstone_stairs": {
-        "sound": "stone"
     },
     "mx_stairs_plus:red_shulker_box_stairs": {
         "sound": "stone"
@@ -1071,9 +883,6 @@
     "mx_stairs_plus:redstone_ore_stairs": {
         "sound": "stone"
     },
-    "mx_stairs_plus:reeds_stairs": {
-        "sound": "grass"
-    },
     "mx_stairs_plus:reinforced_deepslate_stairs": {
         "sound": "deepslate"
     },
@@ -1081,20 +890,11 @@
         "sound": "metal"
     },
     "mx_stairs_plus:reserved6_stairs": {},
-    "mx_stairs_plus:resin_block_stairs": {
-        "sound": "resin"
-    },
-    "mx_stairs_plus:resin_bricks_stairs": {
-        "sound": "resin_brick"
-    },
     "mx_stairs_plus:respawn_anchor_stairs": {
         "sound": "metal"
     },
     "mx_stairs_plus:sand_stairs": {
         "sound": "sand"
-    },
-    "mx_stairs_plus:sandstone_stairs": {
-        "sound": "stone"
     },
     "mx_stairs_plus:sculk_stairs": {
         "sound": "sculk"
@@ -1107,9 +907,6 @@
     },
     "mx_stairs_plus:shroomlight_stairs": {
         "sound": "shroomlight"
-    },
-    "mx_stairs_plus:shulker_box_stairs": {
-        "sound": "stone"
     },
     "mx_stairs_plus:silver_glazed_terracotta_stairs": {
         "sound": "stone"
@@ -1125,15 +922,6 @@
     },
     "mx_stairs_plus:smooth_basalt_stairs": {
         "sound": "basalt"
-    },
-    "mx_stairs_plus:smooth_quartz_stairs": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:smooth_red_sandstone_stairs": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:smooth_sandstone_stairs": {
-        "sound": "stone"
     },
     "mx_stairs_plus:smooth_stone_stairs": {
         "sound": "stone"
@@ -1159,39 +947,15 @@
     "mx_stairs_plus:spruce_log_stairs": {
         "sound": "wood"
     },
-    "mx_stairs_plus:spruce_planks_stairs": {
-        "sound": "wood"
-    },
     "mx_stairs_plus:spruce_wood_stairs": {
         "sound": "wood"
-    },
-    "mx_stairs_plus:stained_glass_stairs": {
-        "sound": "glass"
-    },
-    "mx_stairs_plus:stained_hardened_clay_stairs": {
-        "sound": "stone"
     },
     "mx_stairs_plus:stickyPistonArmCollision_stairs": {},
     "mx_stairs_plus:sticky_piston_stairs": {
         "sound": "stone"
     },
-    "mx_stairs_plus:stone_stairs": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:stone_bricks_stairs": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:stonebrick_stairs": {
-        "sound": "stone"
-    },
     "mx_stairs_plus:structure_block_stairs": {},
     "mx_stairs_plus:structure_void_stairs": {},
-    "mx_stairs_plus:sulfur_stairs": {
-        "sound": "sulfur"
-    },
-    "mx_stairs_plus:sulfur_bricks_stairs": {
-        "sound": "sulfur"
-    },
     "mx_stairs_plus:suspicious_gravel_stairs": {
         "sound": "suspicious_gravel"
     },
@@ -1216,17 +980,8 @@
     "mx_stairs_plus:trial_spawner_stairs": {
         "sound": "trial_spawner"
     },
-    "mx_stairs_plus:tube_coral_stairs": {
-        "sound": "stone"
-    },
     "mx_stairs_plus:tube_coral_block_stairs": {
         "sound": "stone"
-    },
-    "mx_stairs_plus:tuff_stairs": {
-        "sound": "tuff"
-    },
-    "mx_stairs_plus:tuff_bricks_stairs": {
-        "sound": "tuff_bricks"
     },
     "mx_stairs_plus:undyed_shulker_box_stairs": {
         "sound": "stone"
@@ -1240,9 +995,6 @@
     "mx_stairs_plus:warped_nylium_stairs": {
         "sound": "nylium"
     },
-    "mx_stairs_plus:warped_planks_stairs": {
-        "sound": "nether_wood"
-    },
     "mx_stairs_plus:waxed_chiseled_copper_stairs": {
         "sound": "copper"
     },
@@ -1255,17 +1007,11 @@
     "mx_stairs_plus:waxed_copper_bulb_stairs": {
         "sound": "copper_bulb"
     },
-    "mx_stairs_plus:waxed_copper_chain_stairs": {
-        "sound": "chain"
-    },
     "mx_stairs_plus:waxed_copper_chest_stairs": {
         "sound": "copper_chest"
     },
     "mx_stairs_plus:waxed_copper_grate_stairs": {
         "sound": "copper_grate"
-    },
-    "mx_stairs_plus:waxed_cut_copper_stairs": {
-        "sound": "copper"
     },
     "mx_stairs_plus:waxed_exposed_chiseled_copper_stairs": {
         "sound": "copper"
@@ -1279,17 +1025,11 @@
     "mx_stairs_plus:waxed_exposed_copper_bulb_stairs": {
         "sound": "copper_bulb"
     },
-    "mx_stairs_plus:waxed_exposed_copper_chain_stairs": {
-        "sound": "chain"
-    },
     "mx_stairs_plus:waxed_exposed_copper_chest_stairs": {
         "sound": "copper_chest"
     },
     "mx_stairs_plus:waxed_exposed_copper_grate_stairs": {
         "sound": "copper_grate"
-    },
-    "mx_stairs_plus:waxed_exposed_cut_copper_stairs": {
-        "sound": "copper"
     },
     "mx_stairs_plus:waxed_oxidized_chiseled_copper_stairs": {
         "sound": "copper"
@@ -1303,17 +1043,11 @@
     "mx_stairs_plus:waxed_oxidized_copper_bulb_stairs": {
         "sound": "copper_bulb"
     },
-    "mx_stairs_plus:waxed_oxidized_copper_chain_stairs": {
-        "sound": "chain"
-    },
     "mx_stairs_plus:waxed_oxidized_copper_chest_stairs": {
         "sound": "copper_chest_oxidized"
     },
     "mx_stairs_plus:waxed_oxidized_copper_grate_stairs": {
         "sound": "copper_grate"
-    },
-    "mx_stairs_plus:waxed_oxidized_cut_copper_stairs": {
-        "sound": "copper"
     },
     "mx_stairs_plus:waxed_weathered_chiseled_copper_stairs": {
         "sound": "copper"
@@ -1327,17 +1061,11 @@
     "mx_stairs_plus:waxed_weathered_copper_bulb_stairs": {
         "sound": "copper_bulb"
     },
-    "mx_stairs_plus:waxed_weathered_copper_chain_stairs": {
-        "sound": "chain"
-    },
     "mx_stairs_plus:waxed_weathered_copper_chest_stairs": {
         "sound": "copper_chest_weathered"
     },
     "mx_stairs_plus:waxed_weathered_copper_grate_stairs": {
         "sound": "copper_grate"
-    },
-    "mx_stairs_plus:waxed_weathered_cut_copper_stairs": {
-        "sound": "copper"
     },
     "mx_stairs_plus:weathered_chiseled_copper_stairs": {
         "sound": "copper"
@@ -1351,17 +1079,11 @@
     "mx_stairs_plus:weathered_copper_bulb_stairs": {
         "sound": "copper_bulb"
     },
-    "mx_stairs_plus:weathered_copper_chain_stairs": {
-        "sound": "chain"
-    },
     "mx_stairs_plus:weathered_copper_chest_stairs": {
         "sound": "copper_chest_weathered"
     },
     "mx_stairs_plus:weathered_copper_grate_stairs": {
         "sound": "copper_grate"
-    },
-    "mx_stairs_plus:weathered_cut_copper_stairs": {
-        "sound": "copper"
     },
     "mx_stairs_plus:wet_sponge_stairs": {
         "sound": "wet_sponge"
@@ -1385,12 +1107,6 @@
         "sound": "terracotta"
     },
     "mx_stairs_plus:white_wool_stairs": {
-        "sound": "cloth"
-    },
-    "mx_stairs_plus:wood_stairs": {
-        "sound": "wood"
-    },
-    "mx_stairs_plus:wool_stairs": {
         "sound": "cloth"
     },
     "mx_stairs_plus:yellow_concrete_stairs": {
@@ -1420,9 +1136,6 @@
     "mx_stairs_plus:acacia_log_slab": {
         "sound": "wood"
     },
-    "mx_stairs_plus:acacia_planks_slab": {
-        "sound": "wood"
-    },
     "mx_stairs_plus:acacia_wood_slab": {
         "sound": "wood"
     },
@@ -1434,12 +1147,6 @@
     },
     "mx_stairs_plus:ancient_debris_slab": {
         "sound": "ancient_debris"
-    },
-    "mx_stairs_plus:andesite_slab": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:azalea_slab": {
-        "sound": "azalea"
     },
     "mx_stairs_plus:azalea_leaves_slab": {
         "sound": "azalea_leaves"
@@ -1457,9 +1164,6 @@
         "sound": "grass"
     },
     "mx_stairs_plus:birch_log_slab": {
-        "sound": "wood"
-    },
-    "mx_stairs_plus:birch_planks_slab": {
         "sound": "wood"
     },
     "mx_stairs_plus:birch_wood_slab": {
@@ -1485,9 +1189,6 @@
     },
     "mx_stairs_plus:black_wool_slab": {
         "sound": "cloth"
-    },
-    "mx_stairs_plus:blackstone_slab": {
-        "sound": "stone"
     },
     "mx_stairs_plus:blast_furnace_slab": {
         "sound": "stone"
@@ -1522,13 +1223,9 @@
     "mx_stairs_plus:border_block_slab": {
         "sound": "stone"
     },
-    "mx_stairs_plus:brain_coral_slab": {
-        "sound": "stone"
-    },
     "mx_stairs_plus:brain_coral_block_slab": {
         "sound": "stone"
     },
-    "mx_stairs_plus:brick_block_slab": {},
     "mx_stairs_plus:brown_concrete_slab": {
         "sound": "stone"
     },
@@ -1537,9 +1234,6 @@
     },
     "mx_stairs_plus:brown_glazed_terracotta_slab": {
         "sound": "stone"
-    },
-    "mx_stairs_plus:brown_mushroom_slab": {
-        "sound": "grass"
     },
     "mx_stairs_plus:brown_mushroom_block_slab": {
         "sound": "wood"
@@ -1569,9 +1263,6 @@
     "mx_stairs_plus:carved_pumpkin_slab": {
         "sound": "wood"
     },
-    "mx_stairs_plus:chain_slab": {
-        "sound": "chain"
-    },
     "mx_stairs_plus:chain_command_block_slab": {
         "sound": "metal"
     },
@@ -1579,9 +1270,6 @@
         "sound": "cherry_leaves"
     },
     "mx_stairs_plus:cherry_log_slab": {
-        "sound": "cherry_wood"
-    },
-    "mx_stairs_plus:cherry_planks_slab": {
         "sound": "cherry_wood"
     },
     "mx_stairs_plus:cherry_wood_slab": {
@@ -1629,12 +1317,6 @@
     "mx_stairs_plus:chiseled_tuff_bricks_slab": {
         "sound": "tuff_bricks"
     },
-    "mx_stairs_plus:cinnabar_slab": {
-        "sound": "cinnabar"
-    },
-    "mx_stairs_plus:cinnabar_bricks_slab": {
-        "sound": "cinnabar"
-    },
     "mx_stairs_plus:clay_slab": {
         "sound": "gravel"
     },
@@ -1647,20 +1329,8 @@
     "mx_stairs_plus:coarse_dirt_slab": {
         "sound": "gravel"
     },
-    "mx_stairs_plus:cobbled_deepslate_slab": {
-        "sound": "deepslate"
-    },
-    "mx_stairs_plus:cobblestone_slab": {
-        "sound": "stone"
-    },
     "mx_stairs_plus:command_block_slab": {
         "sound": "metal"
-    },
-    "mx_stairs_plus:concrete_slab": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:concretePowder_slab": {
-        "sound": "sand"
     },
     "mx_stairs_plus:copper_bars_slab": {
         "sound": "copper"
@@ -1670,9 +1340,6 @@
     },
     "mx_stairs_plus:copper_bulb_slab": {
         "sound": "copper_bulb"
-    },
-    "mx_stairs_plus:copper_chain_slab": {
-        "sound": "chain"
     },
     "mx_stairs_plus:copper_chest_slab": {
         "sound": "copper_chest"
@@ -1686,7 +1353,6 @@
     "mx_stairs_plus:coral_slab": {
         "sound": "stone"
     },
-    "mx_stairs_plus:coral_block_slab": {},
     "mx_stairs_plus:cracked_deepslate_bricks_slab": {
         "sound": "deepslate_bricks"
     },
@@ -1717,14 +1383,8 @@
     "mx_stairs_plus:crimson_nylium_slab": {
         "sound": "nylium"
     },
-    "mx_stairs_plus:crimson_planks_slab": {
-        "sound": "nether_wood"
-    },
     "mx_stairs_plus:crying_obsidian_slab": {
         "sound": "stone"
-    },
-    "mx_stairs_plus:cut_copper_slab": {
-        "sound": "copper"
     },
     "mx_stairs_plus:cut_red_sandstone_slab": {
         "sound": "stone"
@@ -1759,28 +1419,13 @@
     "mx_stairs_plus:dark_oak_log_slab": {
         "sound": "wood"
     },
-    "mx_stairs_plus:dark_oak_planks_slab": {
-        "sound": "wood"
-    },
     "mx_stairs_plus:dark_oak_wood_slab": {
         "sound": "wood"
-    },
-    "mx_stairs_plus:dark_prismarine_slab": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:dead_brain_coral_slab": {
-        "sound": "stone"
     },
     "mx_stairs_plus:dead_brain_coral_block_slab": {
         "sound": "stone"
     },
-    "mx_stairs_plus:dead_horn_coral_slab": {
-        "sound": "stone"
-    },
     "mx_stairs_plus:dead_horn_coral_block_slab": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:dead_tube_coral_slab": {
         "sound": "stone"
     },
     "mx_stairs_plus:dead_tube_coral_block_slab": {
@@ -1788,9 +1433,6 @@
     },
     "mx_stairs_plus:deepslate_slab": {
         "sound": "deepslate"
-    },
-    "mx_stairs_plus:deepslate_bricks_slab": {
-        "sound": "deepslate_bricks"
     },
     "mx_stairs_plus:deepslate_coal_ore_slab": {
         "sound": "deepslate"
@@ -1816,9 +1458,6 @@
     "mx_stairs_plus:deepslate_redstone_ore_slab": {
         "sound": "deepslate"
     },
-    "mx_stairs_plus:deepslate_tiles_slab": {
-        "sound": "deepslate_bricks"
-    },
     "mx_stairs_plus:deny_slab": {
         "sound": "stone"
     },
@@ -1832,9 +1471,6 @@
         "sound": "metal"
     },
     "mx_stairs_plus:diamond_ore_slab": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:diorite_slab": {
         "sound": "stone"
     },
     "mx_stairs_plus:dirt_slab": {
@@ -1853,9 +1489,6 @@
         "sound": "stone"
     },
     "mx_stairs_plus:enchanting_table_slab": {},
-    "mx_stairs_plus:end_bricks_slab": {
-        "sound": "stone"
-    },
     "mx_stairs_plus:end_stone_slab": {
         "sound": "stone"
     },
@@ -1872,17 +1505,11 @@
     "mx_stairs_plus:exposed_copper_bulb_slab": {
         "sound": "copper_bulb"
     },
-    "mx_stairs_plus:exposed_copper_chain_slab": {
-        "sound": "chain"
-    },
     "mx_stairs_plus:exposed_copper_chest_slab": {
         "sound": "copper_chest"
     },
     "mx_stairs_plus:exposed_copper_grate_slab": {
         "sound": "copper_grate"
-    },
-    "mx_stairs_plus:exposed_cut_copper_slab": {
-        "sound": "copper"
     },
     "mx_stairs_plus:farmland_slab": {
         "sound": "gravel"
@@ -1918,9 +1545,6 @@
         "sound": "metal"
     },
     "mx_stairs_plus:gold_ore_slab": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:granite_slab": {
         "sound": "stone"
     },
     "mx_stairs_plus:grass_slab": {
@@ -1986,9 +1610,6 @@
     "mx_stairs_plus:honeycomb_block_slab": {
         "sound": "coral"
     },
-    "mx_stairs_plus:horn_coral_slab": {
-        "sound": "stone"
-    },
     "mx_stairs_plus:horn_coral_block_slab": {
         "sound": "stone"
     },
@@ -2042,9 +1663,6 @@
     "mx_stairs_plus:jungle_log_slab": {
         "sound": "wood"
     },
-    "mx_stairs_plus:jungle_planks_slab": {
-        "sound": "wood"
-    },
     "mx_stairs_plus:jungle_wood_slab": {
         "sound": "wood"
     },
@@ -2056,12 +1674,6 @@
     },
     "mx_stairs_plus:lapis_ore_slab": {
         "sound": "stone"
-    },
-    "mx_stairs_plus:leaves_slab": {
-        "sound": "grass"
-    },
-    "mx_stairs_plus:leaves2_slab": {
-        "sound": "grass"
     },
     "mx_stairs_plus:light_blue_concrete_slab": {
         "sound": "stone"
@@ -2147,12 +1759,6 @@
     "mx_stairs_plus:lodestone_slab": {
         "sound": "lodestone"
     },
-    "mx_stairs_plus:log_slab": {
-        "sound": "wood"
-    },
-    "mx_stairs_plus:log2_slab": {
-        "sound": "wood"
-    },
     "mx_stairs_plus:loom_slab": {
         "sound": "wood"
     },
@@ -2186,9 +1792,6 @@
     "mx_stairs_plus:mangrove_log_slab": {
         "sound": "wood"
     },
-    "mx_stairs_plus:mangrove_planks_slab": {
-        "sound": "wood"
-    },
     "mx_stairs_plus:mangrove_wood_slab": {
         "sound": "wood"
     },
@@ -2201,24 +1804,12 @@
     "mx_stairs_plus:moss_block_slab": {
         "sound": "moss_block"
     },
-    "mx_stairs_plus:mossy_cobblestone_slab": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:mossy_stone_bricks_slab": {
-        "sound": "stone"
-    },
     "mx_stairs_plus:movingBlock_slab": {},
     "mx_stairs_plus:mud_slab": {
         "sound": "mud"
     },
-    "mx_stairs_plus:mud_bricks_slab": {
-        "sound": "mud_bricks"
-    },
     "mx_stairs_plus:mycelium_slab": {
         "sound": "grass"
-    },
-    "mx_stairs_plus:nether_brick_slab": {
-        "sound": "nether_brick"
     },
     "mx_stairs_plus:nether_gold_ore_slab": {
         "sound": "nether_gold_ore"
@@ -2239,9 +1830,6 @@
         "sound": "grass"
     },
     "mx_stairs_plus:oak_log_slab": {
-        "sound": "wood"
-    },
-    "mx_stairs_plus:oak_planks_slab": {
         "sound": "wood"
     },
     "mx_stairs_plus:oak_wood_slab": {
@@ -2286,17 +1874,11 @@
     "mx_stairs_plus:oxidized_copper_bulb_slab": {
         "sound": "copper_bulb"
     },
-    "mx_stairs_plus:oxidized_copper_chain_slab": {
-        "sound": "chain"
-    },
     "mx_stairs_plus:oxidized_copper_chest_slab": {
         "sound": "copper_chest_oxidized"
     },
     "mx_stairs_plus:oxidized_copper_grate_slab": {
         "sound": "copper_grate"
-    },
-    "mx_stairs_plus:oxidized_cut_copper_slab": {
-        "sound": "copper"
     },
     "mx_stairs_plus:packed_ice_slab": {
         "sound": "glass"
@@ -2311,9 +1893,6 @@
         "sound": "grass"
     },
     "mx_stairs_plus:pale_oak_log_slab": {
-        "sound": "wood"
-    },
-    "mx_stairs_plus:pale_oak_planks_slab": {
         "sound": "wood"
     },
     "mx_stairs_plus:pale_oak_wood_slab": {
@@ -2344,50 +1923,14 @@
         "sound": "stone"
     },
     "mx_stairs_plus:pistonArmCollision_slab": {},
-    "mx_stairs_plus:planks_slab": {
-        "sound": "wood"
-    },
     "mx_stairs_plus:podzol_slab": {
         "sound": "gravel"
-    },
-    "mx_stairs_plus:polished_andesite_slab": {
-        "sound": "stone"
     },
     "mx_stairs_plus:polished_basalt_slab": {
         "sound": "basalt"
     },
-    "mx_stairs_plus:polished_blackstone_slab": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:polished_blackstone_bricks_slab": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:polished_cinnabar_slab": {
-        "sound": "cinnabar"
-    },
-    "mx_stairs_plus:polished_deepslate_slab": {
-        "sound": "deepslate"
-    },
-    "mx_stairs_plus:polished_diorite_slab": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:polished_granite_slab": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:polished_sulfur_slab": {
-        "sound": "sulfur"
-    },
-    "mx_stairs_plus:polished_tuff_slab": {
-        "sound": "polished_tuff"
-    },
     "mx_stairs_plus:powder_snow_slab": {
         "sound": "powder_snow"
-    },
-    "mx_stairs_plus:prismarine_slab": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:prismarine_bricks_slab": {
-        "sound": "stone"
     },
     "mx_stairs_plus:pumpkin_slab": {
         "sound": "wood"
@@ -2413,13 +1956,7 @@
     "mx_stairs_plus:purple_wool_slab": {
         "sound": "cloth"
     },
-    "mx_stairs_plus:purpur_block_slab": {
-        "sound": "stone"
-    },
     "mx_stairs_plus:purpur_pillar_slab": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:quartz_block_slab": {
         "sound": "stone"
     },
     "mx_stairs_plus:quartz_bricks_slab": {
@@ -2449,20 +1986,11 @@
     "mx_stairs_plus:red_glazed_terracotta_slab": {
         "sound": "stone"
     },
-    "mx_stairs_plus:red_mushroom_slab": {
-        "sound": "grass"
-    },
     "mx_stairs_plus:red_mushroom_block_slab": {
         "sound": "wood"
     },
-    "mx_stairs_plus:red_nether_brick_slab": {
-        "sound": "nether_brick"
-    },
     "mx_stairs_plus:red_sand_slab": {
         "sound": "sand"
-    },
-    "mx_stairs_plus:red_sandstone_slab": {
-        "sound": "stone"
     },
     "mx_stairs_plus:red_shulker_box_slab": {
         "sound": "stone"
@@ -2485,9 +2013,6 @@
     "mx_stairs_plus:redstone_ore_slab": {
         "sound": "stone"
     },
-    "mx_stairs_plus:reeds_slab": {
-        "sound": "grass"
-    },
     "mx_stairs_plus:reinforced_deepslate_slab": {
         "sound": "deepslate"
     },
@@ -2495,20 +2020,11 @@
         "sound": "metal"
     },
     "mx_stairs_plus:reserved6_slab": {},
-    "mx_stairs_plus:resin_block_slab": {
-        "sound": "resin"
-    },
-    "mx_stairs_plus:resin_bricks_slab": {
-        "sound": "resin_brick"
-    },
     "mx_stairs_plus:respawn_anchor_slab": {
         "sound": "metal"
     },
     "mx_stairs_plus:sand_slab": {
         "sound": "sand"
-    },
-    "mx_stairs_plus:sandstone_slab": {
-        "sound": "stone"
     },
     "mx_stairs_plus:sculk_slab": {
         "sound": "sculk"
@@ -2521,9 +2037,6 @@
     },
     "mx_stairs_plus:shroomlight_slab": {
         "sound": "shroomlight"
-    },
-    "mx_stairs_plus:shulker_box_slab": {
-        "sound": "stone"
     },
     "mx_stairs_plus:silver_glazed_terracotta_slab": {
         "sound": "stone"
@@ -2539,15 +2052,6 @@
     },
     "mx_stairs_plus:smooth_basalt_slab": {
         "sound": "basalt"
-    },
-    "mx_stairs_plus:smooth_quartz_slab": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:smooth_red_sandstone_slab": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:smooth_sandstone_slab": {
-        "sound": "stone"
     },
     "mx_stairs_plus:smooth_stone_slab": {
         "sound": "stone"
@@ -2573,39 +2077,15 @@
     "mx_stairs_plus:spruce_log_slab": {
         "sound": "wood"
     },
-    "mx_stairs_plus:spruce_planks_slab": {
-        "sound": "wood"
-    },
     "mx_stairs_plus:spruce_wood_slab": {
         "sound": "wood"
-    },
-    "mx_stairs_plus:stained_glass_slab": {
-        "sound": "glass"
-    },
-    "mx_stairs_plus:stained_hardened_clay_slab": {
-        "sound": "stone"
     },
     "mx_stairs_plus:stickyPistonArmCollision_slab": {},
     "mx_stairs_plus:sticky_piston_slab": {
         "sound": "stone"
     },
-    "mx_stairs_plus:stone_slab": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:stone_bricks_slab": {
-        "sound": "stone"
-    },
-    "mx_stairs_plus:stonebrick_slab": {
-        "sound": "stone"
-    },
     "mx_stairs_plus:structure_block_slab": {},
     "mx_stairs_plus:structure_void_slab": {},
-    "mx_stairs_plus:sulfur_slab": {
-        "sound": "sulfur"
-    },
-    "mx_stairs_plus:sulfur_bricks_slab": {
-        "sound": "sulfur"
-    },
     "mx_stairs_plus:suspicious_gravel_slab": {
         "sound": "suspicious_gravel"
     },
@@ -2630,17 +2110,8 @@
     "mx_stairs_plus:trial_spawner_slab": {
         "sound": "trial_spawner"
     },
-    "mx_stairs_plus:tube_coral_slab": {
-        "sound": "stone"
-    },
     "mx_stairs_plus:tube_coral_block_slab": {
         "sound": "stone"
-    },
-    "mx_stairs_plus:tuff_slab": {
-        "sound": "tuff"
-    },
-    "mx_stairs_plus:tuff_bricks_slab": {
-        "sound": "tuff_bricks"
     },
     "mx_stairs_plus:undyed_shulker_box_slab": {
         "sound": "stone"
@@ -2654,9 +2125,6 @@
     "mx_stairs_plus:warped_nylium_slab": {
         "sound": "nylium"
     },
-    "mx_stairs_plus:warped_planks_slab": {
-        "sound": "nether_wood"
-    },
     "mx_stairs_plus:waxed_chiseled_copper_slab": {
         "sound": "copper"
     },
@@ -2669,17 +2137,11 @@
     "mx_stairs_plus:waxed_copper_bulb_slab": {
         "sound": "copper_bulb"
     },
-    "mx_stairs_plus:waxed_copper_chain_slab": {
-        "sound": "chain"
-    },
     "mx_stairs_plus:waxed_copper_chest_slab": {
         "sound": "copper_chest"
     },
     "mx_stairs_plus:waxed_copper_grate_slab": {
         "sound": "copper_grate"
-    },
-    "mx_stairs_plus:waxed_cut_copper_slab": {
-        "sound": "copper"
     },
     "mx_stairs_plus:waxed_exposed_chiseled_copper_slab": {
         "sound": "copper"
@@ -2693,17 +2155,11 @@
     "mx_stairs_plus:waxed_exposed_copper_bulb_slab": {
         "sound": "copper_bulb"
     },
-    "mx_stairs_plus:waxed_exposed_copper_chain_slab": {
-        "sound": "chain"
-    },
     "mx_stairs_plus:waxed_exposed_copper_chest_slab": {
         "sound": "copper_chest"
     },
     "mx_stairs_plus:waxed_exposed_copper_grate_slab": {
         "sound": "copper_grate"
-    },
-    "mx_stairs_plus:waxed_exposed_cut_copper_slab": {
-        "sound": "copper"
     },
     "mx_stairs_plus:waxed_oxidized_chiseled_copper_slab": {
         "sound": "copper"
@@ -2717,17 +2173,11 @@
     "mx_stairs_plus:waxed_oxidized_copper_bulb_slab": {
         "sound": "copper_bulb"
     },
-    "mx_stairs_plus:waxed_oxidized_copper_chain_slab": {
-        "sound": "chain"
-    },
     "mx_stairs_plus:waxed_oxidized_copper_chest_slab": {
         "sound": "copper_chest_oxidized"
     },
     "mx_stairs_plus:waxed_oxidized_copper_grate_slab": {
         "sound": "copper_grate"
-    },
-    "mx_stairs_plus:waxed_oxidized_cut_copper_slab": {
-        "sound": "copper"
     },
     "mx_stairs_plus:waxed_weathered_chiseled_copper_slab": {
         "sound": "copper"
@@ -2741,17 +2191,11 @@
     "mx_stairs_plus:waxed_weathered_copper_bulb_slab": {
         "sound": "copper_bulb"
     },
-    "mx_stairs_plus:waxed_weathered_copper_chain_slab": {
-        "sound": "chain"
-    },
     "mx_stairs_plus:waxed_weathered_copper_chest_slab": {
         "sound": "copper_chest_weathered"
     },
     "mx_stairs_plus:waxed_weathered_copper_grate_slab": {
         "sound": "copper_grate"
-    },
-    "mx_stairs_plus:waxed_weathered_cut_copper_slab": {
-        "sound": "copper"
     },
     "mx_stairs_plus:weathered_chiseled_copper_slab": {
         "sound": "copper"
@@ -2765,17 +2209,11 @@
     "mx_stairs_plus:weathered_copper_bulb_slab": {
         "sound": "copper_bulb"
     },
-    "mx_stairs_plus:weathered_copper_chain_slab": {
-        "sound": "chain"
-    },
     "mx_stairs_plus:weathered_copper_chest_slab": {
         "sound": "copper_chest_weathered"
     },
     "mx_stairs_plus:weathered_copper_grate_slab": {
         "sound": "copper_grate"
-    },
-    "mx_stairs_plus:weathered_cut_copper_slab": {
-        "sound": "copper"
     },
     "mx_stairs_plus:wet_sponge_slab": {
         "sound": "wet_sponge"
@@ -2799,12 +2237,6 @@
         "sound": "terracotta"
     },
     "mx_stairs_plus:white_wool_slab": {
-        "sound": "cloth"
-    },
-    "mx_stairs_plus:wood_slab": {
-        "sound": "wood"
-    },
-    "mx_stairs_plus:wool_slab": {
         "sound": "cloth"
     },
     "mx_stairs_plus:yellow_concrete_slab": {

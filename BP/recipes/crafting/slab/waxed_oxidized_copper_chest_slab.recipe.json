@@ -1,0 +1,28 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mx_stairs_plus:waxed_oxidized_copper_chest_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "XXX"
+        ],
+        "key": {
+            "X": {
+                "item": "minecraft:waxed_oxidized_copper_chest"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:waxed_oxidized_copper_chest"
+            }
+        ],
+        "result": {
+            "item": "mx_stairs_plus:waxed_oxidized_copper_chest_slab",
+            "count": 6
+        }
+    }
+}

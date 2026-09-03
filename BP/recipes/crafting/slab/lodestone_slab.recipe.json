@@ -1,0 +1,28 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mx_stairs_plus:lodestone_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "XXX"
+        ],
+        "key": {
+            "X": {
+                "item": "minecraft:lodestone"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:lodestone"
+            }
+        ],
+        "result": {
+            "item": "mx_stairs_plus:lodestone_slab",
+            "count": 6
+        }
+    }
+}

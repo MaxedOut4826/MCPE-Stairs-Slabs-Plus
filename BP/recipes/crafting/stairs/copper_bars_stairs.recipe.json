@@ -1,0 +1,30 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mx_stairs_plus:copper_bars_stairs"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "X",
+            "XX",
+            "XXX"
+        ],
+        "key": {
+            "X": {
+                "item": "minecraft:copper_bars"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:copper_bars"
+            }
+        ],
+        "result": {
+            "item": "mx_stairs_plus:copper_bars_stairs",
+            "count": 4
+        }
+    }
+}
