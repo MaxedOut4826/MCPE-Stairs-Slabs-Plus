@@ -215,3 +215,5 @@ export function isBlockExcluded(id) {
         isAnyStringMatching(id, EXACT_BLOCK_EXCLUSIONS)
     );
 }
+
+// This helper doesnt belong in a constants folder
