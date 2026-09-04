@@ -173,15 +173,16 @@ function generateMaterials(id, vanillaData) {
 
     if (isTexturePath(sourceTextures)) {
         setBlockMaterial(sourceTextures, renderMethod);
-    } else {
-        for (const [face, texture] of Object.entries(sourceTextures)) {
-            if (!materialInstances["*"] && isSideBlockFace(face)) {
-                setBlockMaterial(texture, renderMethod);
-                continue;
-            }
+        return;
+    }
 
-            setBlockMaterial(texture, renderMethod, face);
+    for (const [face, texture] of Object.entries(sourceTextures)) {
+        if (!materialInstances["*"] && isSideBlockFace(face)) {
+            setBlockMaterial(texture, renderMethod);
+            continue;
         }
+
+        setBlockMaterial(texture, renderMethod, face);
     }
 }
 
