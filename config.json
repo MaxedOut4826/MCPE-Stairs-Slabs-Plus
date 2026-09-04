@@ -5,5 +5,7 @@
     "modules": [
         "npm"
     ],
-    "id": "wxcuvajdivnmteja5fk"
+    "id": "wxcuvajdivnmteja5fk",
+    "behaviorPackPath": "./brarchive/output/BP",
+    "resourcePackPath": "./brarchive/output/RP"
 }

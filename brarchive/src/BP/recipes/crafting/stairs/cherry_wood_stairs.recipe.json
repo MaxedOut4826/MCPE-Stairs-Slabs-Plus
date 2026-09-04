@@ -1,0 +1,30 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mx_stairs_plus:cherry_wood_stairs"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "X",
+            "XX",
+            "XXX"
+        ],
+        "key": {
+            "X": {
+                "item": "minecraft:cherry_wood"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:cherry_wood"
+            }
+        ],
+        "result": {
+            "item": "mx_stairs_plus:cherry_wood_stairs",
+            "count": 4
+        }
+    }
+}

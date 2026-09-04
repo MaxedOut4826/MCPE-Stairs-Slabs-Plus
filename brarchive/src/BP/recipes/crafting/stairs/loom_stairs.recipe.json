@@ -1,0 +1,30 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mx_stairs_plus:loom_stairs"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "X",
+            "XX",
+            "XXX"
+        ],
+        "key": {
+            "X": {
+                "item": "minecraft:loom"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:loom"
+            }
+        ],
+        "result": {
+            "item": "mx_stairs_plus:loom_stairs",
+            "count": 4
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mx_stairs_plus:respawn_anchor_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "XXX"
+        ],
+        "key": {
+            "X": {
+                "item": "minecraft:respawn_anchor"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:respawn_anchor"
+            }
+        ],
+        "result": {
+            "item": "mx_stairs_plus:respawn_anchor_slab",
+            "count": 6
+        }
+    }
+}

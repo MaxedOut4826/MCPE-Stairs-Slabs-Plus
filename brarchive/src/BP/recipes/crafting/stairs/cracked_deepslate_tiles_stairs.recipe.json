@@ -1,0 +1,30 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mx_stairs_plus:cracked_deepslate_tiles_stairs"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "X",
+            "XX",
+            "XXX"
+        ],
+        "key": {
+            "X": {
+                "item": "minecraft:cracked_deepslate_tiles"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:cracked_deepslate_tiles"
+            }
+        ],
+        "result": {
+            "item": "mx_stairs_plus:cracked_deepslate_tiles_stairs",
+            "count": 4
+        }
+    }
+}

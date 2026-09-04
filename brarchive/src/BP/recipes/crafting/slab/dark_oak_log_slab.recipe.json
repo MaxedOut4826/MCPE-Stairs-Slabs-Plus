@@ -1,0 +1,28 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mx_stairs_plus:dark_oak_log_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "XXX"
+        ],
+        "key": {
+            "X": {
+                "item": "minecraft:dark_oak_log"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:dark_oak_log"
+            }
+        ],
+        "result": {
+            "item": "mx_stairs_plus:dark_oak_log_slab",
+            "count": 6
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mx_stairs_plus:deepslate_coal_ore_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "XXX"
+        ],
+        "key": {
+            "X": {
+                "item": "minecraft:deepslate_coal_ore"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:deepslate_coal_ore"
+            }
+        ],
+        "result": {
+            "item": "mx_stairs_plus:deepslate_coal_ore_slab",
+            "count": 6
+        }
+    }
+}

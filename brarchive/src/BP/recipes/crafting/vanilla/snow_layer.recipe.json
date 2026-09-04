@@ -1,0 +1,28 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "minecraft:snow_layer"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "XX"
+        ],
+        "key": {
+            "X": {
+                "item": "minecraft:snow"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:snow"
+            }
+        ],
+        "result": {
+            "item": "minecraft:snow_layer",
+            "count": 4
+        }
+    }
+}

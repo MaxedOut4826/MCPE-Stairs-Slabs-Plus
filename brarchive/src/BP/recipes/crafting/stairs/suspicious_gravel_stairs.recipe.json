@@ -1,0 +1,30 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mx_stairs_plus:suspicious_gravel_stairs"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "X",
+            "XX",
+            "XXX"
+        ],
+        "key": {
+            "X": {
+                "item": "minecraft:suspicious_gravel"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:suspicious_gravel"
+            }
+        ],
+        "result": {
+            "item": "mx_stairs_plus:suspicious_gravel_stairs",
+            "count": 4
+        }
+    }
+}
